@@ -1,10 +1,12 @@
 ---
-title: "HackerRank ProjectEuler+ 227 Writeup"
-date: 2019-03-20T00:00:00Z
-draft: false
-tags: ["HackerRank", "ProjectEuler+", "Probability"]
----
+title: HackerRank ProjectEuler+ 227 Writeup
+date: 2019-03-20 00:00:00 +0000
+tags:
+- HackerRank
+- ProjectEuler+
+- Probability
 
+---
 I just solved [The Chase (Project Euler 227) on HackerRank](https://www.hackerrank.com/contests/projecteuler/challenges/euler227). Since some people have had a hard time figuring out an approach to this problem, I'm going to outline mine. While I won't give an exact solution, if you haven't attempted this problem (or the Project Euler version), please try it before you read on. 
 
 [Bayleef](https://www.hackerrank.com/profile/bayleef) amended the problem from the original and it is a bit more complicated. Namely, it requires an exact answer. And the inputs can be rather large, so we need to make sure our algorithm is efficient.
