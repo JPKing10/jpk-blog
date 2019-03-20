@@ -15,8 +15,9 @@
         <div>
           {{ partial "icon.html" (dict "ctx" $ "name" "tag") }}
           {{ range . -}}
+          {{ name := . }}
             {{- with $.Site.GetPage (printf "/%s/%s" "tags" . ) -}}
-              <a class="tag" href="{{ .Permalink }}">{{ . }}</a>
+              <a class="tag" href="{{ .Permalink }}">{{ $name }}</a>
             {{- end -}}
           {{- end -}}
         </div>
