@@ -1,0 +1,21 @@
+baseURL = "https://www.jamespking.com/"
+languageCode = "en-gb"
+title = "JPK - Code and Startups"
+theme = "m10c"
+
+[params]
+	author = "James Phillips King"
+	description = "Founder of Zealous Digital where we help tech startups build the future by getting investors, talent and customers excited about their products."
+[[params.links]]
+	name = "Zealous Digital"
+	url = "https://www.zealous.digital/"
+[[params.social]]
+	name = "github"
+	url = "https://github.com/jpking10"
+
+[params.style]
+	darkestColor = "#1d2021"
+	darkColor = "#282828"
+	lightColor = "#d5c4a1"
+	lightestColor = "#fbf1c7"
+	primaryColor = "#b8bb26"
