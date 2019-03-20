@@ -57,5 +57,3 @@ I hope that this gives you some extra insight into how to solve the problem with
 2. [Why “OUTPUT THE ANSWER MODULO 10^9 + 7"? by A. Sharma](https://www.hackerearth.com/practice/notes/abhinav92003/why-output-the-answer-modulo-109-7/)
 3. Linear Algebra and Its Applications by G. Strang (4th ed) - 1.6 Inverses and Transposes
 4. [Modular multiplicative inverse on GeeksforGeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/)
-
-JPK
