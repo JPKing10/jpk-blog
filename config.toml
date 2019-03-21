@@ -19,3 +19,7 @@ theme = "m10c"
 	lightColor = "#d5c4a1"
 	lightestColor = "#fbf1c7"
 	primaryColor = "#b8bb26"
+
+	[taxonomies]
+	  category = "categories"
+	    tag = "tags"
