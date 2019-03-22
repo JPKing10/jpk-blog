@@ -43,6 +43,8 @@ To enable your code to successfully process larger inputs within the available t
 
 My first piece of advice is to write your solution in a fast language. I originally wrote mine in Python 3 but it timed out for test case #36 and onward. I rewrote the algorithm in C++ and successfully completed all the test cases.
 
+However, this might say more about the inefficiency of my algorithm (rather than Python). [oleg_b](https://www.hackerrank.com/oleg_b?hr_r=1) commented in the [discussion](https://www.hackerrank.com/contests/projecteuler/challenges/euler227/forum) that there is a Python2 solution that has a worst runtime of 2.6 secs -- I'd love to see that approach!
+
 The next is to write out the matrix you are trying to solve (using a placeholder for the values). By doing this you should be able to notice a number of optimisations in terms of memory usage and the number times your code loops.
 
 ## Further reading
@@ -53,3 +55,8 @@ I hope that this gives you some extra insight into how to solve the problem with
 2. [Why “OUTPUT THE ANSWER MODULO 10^9 + 7"? by A. Sharma](https://www.hackerearth.com/practice/notes/abhinav92003/why-output-the-answer-modulo-109-7/)
 3. Linear Algebra and Its Applications by G. Strang (4th ed) - 1.6 Inverses and Transposes
 4. [Modular multiplicative inverse on GeeksforGeeks](https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/)
+
+---
+
+### Read next
+[About the author and the future of this blog](https://www.jamespking.com/posts/about-me/)
