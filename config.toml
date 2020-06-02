@@ -1,14 +1,11 @@
 baseURL = "https://www.jamespking.com/"
 languageCode = "en-gb"
-title = "JPK - Code and Startups"
-theme = "m10c"
+title = "JPK"
+# theme = "m10c"
 
 [params]
-	author = "James Phillips King"
-	description = "Founder of Zealous Digital where we help tech startups build the future by getting investors, talent and customers excited about their products."
-[[params.links]]
-	name = "Zealous Digital"
-	url = "https://www.zealous.digital/"
+	author = "JPK"
+	description = "Computer science at University of Southampton. Prev: Zealous Digital startup/marketing consulting."
 [[params.social]]
 	name = "github"
 	url = "https://github.com/jpking10"
