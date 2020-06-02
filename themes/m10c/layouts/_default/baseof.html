@@ -35,4 +35,6 @@
 			</div>
 		</header>
 	</body>
+  
+  {{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
 </html>
