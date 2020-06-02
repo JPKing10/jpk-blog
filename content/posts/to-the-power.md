@@ -1,6 +1,8 @@
 +++
 aliases = []
 date = 2020-06-01T23:00:00Z
+katex = true
+markup = ""
 tags = ["math", "java"]
 title = "To the power"
 
