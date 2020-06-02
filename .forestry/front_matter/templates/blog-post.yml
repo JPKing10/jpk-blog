@@ -19,15 +19,5 @@ fields:
   label: Katex
   description: Enable Katex for nice maths
   default: false
-- name: markup
-  type: text
-  config:
-    required: false
-  label: Markup
-  description: Mmarkup avoids issues with Katex
-  default: mmark
-  showOnly:
-    field: katex
-    value: true
 pages:
 - content/posts/to-the-power.md
