@@ -14,3 +14,7 @@ Let's get grounded with a quick and dirty solution. The simple way to find x<sup
 To be continued...
 
 $$\\int_{a}^{b} x^2 dx$$
+
+{{< katex [display] [class="text-center"]  >}}
+f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+{{< /katex >}}
