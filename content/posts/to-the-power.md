@@ -13,4 +13,4 @@ Let's get grounded with a quick and dirty solution. The simple way to find x<sup
 
 To be continued...
 
-	$$\\int_{a}^{b} x^2 dx$$
+$$\\int_{a}^{b} x^2 dx$$
