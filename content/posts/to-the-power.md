@@ -11,6 +11,6 @@ How does a Java find 2<sup>2</sup>? What about x<sup>n</sup>? We'll look at some
 
 Let's get grounded with a quick and dirty solution. If n is an integer, a simple way to find x<sup>n</sup> is to multiply x by itself n times. That'll take on the order of n operations: \\(\Theta (n)\\).
 
-If n is odd \\(n=(n-1) + 1\\) so we have \\(x^n=x^{n-1} \cdot x\\). Otherwise, \\(x^n=x^{\frac{n}{2}^{2}}\\).
+If n is odd \\(n=(n-1) + 1\\) so we have \\(x^n=x^{n-1} \cdot x\\). Otherwise, \\(x^n=x^{\frac{n}{2}^{2}}\\). Recursive application of these rules can reduce the order of operations: \\(O(log_2(n))\\)
 
-To be continued...
+But how does Java do it? To be continued...
