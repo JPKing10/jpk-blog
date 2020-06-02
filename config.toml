@@ -1,7 +1,7 @@
 baseURL = "https://www.jamespking.com/"
 languageCode = "en-gb"
 title = "JPK"
-# theme = "m10c"
+theme = "m10c"
 
 [params]
 	author = "JPK"
